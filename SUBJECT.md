@@ -156,37 +156,37 @@ Mandatory part
 [notice] Read the man carefully.
 
 
-Here is a use example of yourminishell:
+Here is a use example of your minishell:
 
-$> cd /dev
-$> pwd/dev
-$> ls -l
-total 0
-crw-rw----  1 root   video  10, 175 dec 19 09:50 agpgart
-lrwxrwxrwx  1 root   root   3 dec 19 09:50 cdrom -> hdc
-lrwxrwxrwx  1 root   root3 dec 19 09:50 cdrom0 -> hdc
-drwxr-xr-x  2 root   root60 dec 19 09:50 cdroms/
-lrwxrwxrwx  1 root   root3 dec 19 09:50 cdrw -> hdc
-lrwxrwxrwx  1 root   root11 dec 19 09:50 core -> /proc/kcore
-drwxr-xr-x  3 root   root60 dec 19 09:50 cpu/
-drwxr-xr-x  3 root   root60 dec 19 09:50 discs/
-lrwxrwxrwx  1 root   root3 dec 19 09:50 disk -> hda
-lrwxrwxrwx  1 root   root3 dec 19 09:50 dvd -> hdc
-lrwxrwxrwx  1 root   root3 dec 19 09:50 dvdrw -> hdc
-crw-------  1 root   root29,   0 dec 19 09:50 fb0
-lrwxrwxrwx  1 root   root13 dec 19 09:50 fd -> /proc/self/fd/
-brw-rw----  1 root   floppy2,   0 dec 19 09:50 fd0
-brw-rw----  1 root   floppy2,   1 dec 19 09:50 fd1
-crw-rw-rw-  1 root   root1,   7 dec 19 09:50 full
-brw-rw----  1 root   root3,   0 dec 19 09:50 hda
-brw-rw----  1 root   root3,   1 dec 19 09:50 hda1
-brw-rw----  1 root   root3,   2 dec 19 09:50 hda2
-brw-rw----  1 root   root3,   3 dec 19 09:50 hda3
-brw-rw----  1 root   root3,   5 dec 19 09:50 hda5
-brw-rw----  1 root   root3,   6 dec 19 09:50 hda6
-$> kwame
-kwame: command not found
-$>
+        $> cd /dev
+        $> pwd/dev
+        $> ls -l
+        total 0
+        crw-rw----  1 root   video  10, 175 dec 19 09:50 agpgart
+        lrwxrwxrwx  1 root   root   3 dec 19 09:50 cdrom -> hdc
+        lrwxrwxrwx  1 root   root3 dec 19 09:50 cdrom0 -> hdc
+        drwxr-xr-x  2 root   root60 dec 19 09:50 cdroms/
+        lrwxrwxrwx  1 root   root3 dec 19 09:50 cdrw -> hdc
+        lrwxrwxrwx  1 root   root11 dec 19 09:50 core -> /proc/kcore
+        drwxr-xr-x  3 root   root60 dec 19 09:50 cpu/
+        drwxr-xr-x  3 root   root60 dec 19 09:50 discs/
+        lrwxrwxrwx  1 root   root3 dec 19 09:50 disk -> hda
+        lrwxrwxrwx  1 root   root3 dec 19 09:50 dvd -> hdc
+        lrwxrwxrwx  1 root   root3 dec 19 09:50 dvdrw -> hdc
+        crw-------  1 root   root29,   0 dec 19 09:50 fb0
+        lrwxrwxrwx  1 root   root13 dec 19 09:50 fd -> /proc/self/fd/
+        brw-rw----  1 root   floppy2,   0 dec 19 09:50 fd0
+        brw-rw----  1 root   floppy2,   1 dec 19 09:50 fd1
+        crw-rw-rw-  1 root   root1,   7 dec 19 09:50 full
+        brw-rw----  1 root   root3,   0 dec 19 09:50 hda
+        brw-rw----  1 root   root3,   1 dec 19 09:50 hda1
+        brw-rw----  1 root   root3,   2 dec 19 09:50 hda2
+        brw-rw----  1 root   root3,   3 dec 19 09:50 hda3
+        brw-rw----  1 root   root3,   5 dec 19 09:50 hda5
+        brw-rw----  1 root   root3,   6 dec 19 09:50 hda6
+        $> kwame
+        kwame: command not found
+        $>
 
 --------------------------------------------------------------------------------
 
